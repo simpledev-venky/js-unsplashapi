@@ -1,0 +1,14 @@
+.img-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  padding: 0.6rem;
+  margin: 4px;
+  gap: 10px;
+}
+.grid-item {
+  height: 350px;
+  width: 300px;
+}
+h1,.container {
+  text-align: center;
+}
