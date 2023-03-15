@@ -6,7 +6,8 @@ const renderImages = (arr=[])=>{
      console.log(item.urls.raw)
      const img = document.createElement("img")
      img.src = `${item.urls.raw}`
-     img.className = "grid-item"
+     img.alt = "img"
+     img.className = "each-img"
      imgGrid.appendChild(img)
  });
 }
